@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASSIGNMENT 8a</title>
+    </head>
+    <body bgcolor="pink">
+        <img src="./logo_saylaniwelfare.22bf709605809177256c (1).png" alt="logo">
+        <table  border="2"  width="80%"  cellspacing="3" cellpadding="8" bgcolor="cyan " align="center">
+            <tr align="center">
+                <td align="center"><button><a href="#">Home</a></button></td>
+                <td align="center"><button><a href="#">About</a></button></td>
+                <td align="center"><button><a href="#">Gallery</a></button></td>
+                <td align="center"><button><a href="#">Contact Us</a></button></td>
+                <td align="center"><button><a href="#">Login / Signup</a></button></td>
+            </tr>
+        </table>
+        <h1 align="center"><u><b><em>REGISTRATION FORM</em></b></u></h1>
+        <Form>
+                <h2 align="center"><b><u><i>Personal Information</i></u></b></h2>
+                <table align="center" cellspacing="10" cellpadding="10">
+                    <tr>
+                        <td><b>First Name :</b></td>
+                        <td><input type="text" name="Firstname" placeholder="Enter First Name" maxlength="30" required/> (Required) <sup>*</sup></td>
+                        <td>(Max 30 Characters Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Last Name :</b></td>
+                        <td><input type="text" name="Lastname" placeholder="Enter Last Name" required/>(Required) <sup>*</sup></td>
+                        <td>(Max 30 Characters Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Father/Husband Name :</b></td>
+                        <td><input type="text" name="name" placeholder="Enter Father/Husband Name" required/>(Required) <sup>*</sup></td>
+                        <td>(Max 30 Characters Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Gender :</b></td>
+                        <td colspan="2">Male: <input type="radio" id="Male" name="Gender" checked>
+                        Female: <input type="radio" id="Female" name="Gender">(Required) <sup>*</sup></td>
+                    </tr>
+                    <tr>
+                        <td><b>Date of Birth :</b></td>
+                        <td><input type="date" name="DOB" id="DOB" required></td>
+                        <td>(Required) <sup>*</sup></td>
+                    </tr>
+                    <tr>
+                        <td><b>Qualification :</b></td>
+                        <td colspan="2"><select name="education" id="education">
+                            <option value="matriculation">Matric</option>
+                            <option value="intermediate">Inter</option>
+                            <option value="graduation">Graduate</option>
+                            <option value="masters">Masters</option>
+                            <option value="docterate">Doctor</option>
+                        </select>(Required) <sup>*</sup></td>
+                    </tr>
+                    <tr>
+                        <td><b>Email ID :</b></td>
+                        <td><input type="email" name="Email" id="email" placeholder="xyz@gmail.com" required/>(Required) <sup>*</sup></td>
+                        <td>(Max 20 Characters Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Mobile No. :</b></td>
+                        <td><input type="number" name="number" id="mobileno" maxlength="11" placeholder="0300-0000000" required/>(Required) <sup>*</sup></td>
+                        <td>(Max 11 Characters Allowed)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Address :</b></td>
+                        <td colspan="2">
+                            <textarea name="address" id="address" cols="60" rows="10" placeholder="Enter address here...."></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Favourite Color :</b></td>
+                        <td colspan="2"><select name="color" id="color">
+                            <option value="red">Red</option>
+                            <option value="blue">Blue</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="green">Green</option>
+                            <option value="black">Black</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td><b>Hobbies :</b></td>
+                        <td colspan="2">
+                            <input type="checkbox" name="playing" id="hobbies"> Playing<br>
+                            <input type="checkbox" name="Music" id="hobbies"> Music<br>
+                            <input type="checkbox" name="Singing" id="hobbies"> Singing <br>
+                            <input type="checkbox" name="Dancing" id="hobbies"> Dancing <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="checkbox" name="conditions" id="conditions" required>I have agreed all terms and conditions.(Required) <sup>*</sup>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><button><b>Register Now</b></button></td>
+                    </tr>
+                </table>
+        </Form>
+    </body>
+</html>
